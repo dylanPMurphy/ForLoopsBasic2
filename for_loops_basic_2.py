@@ -15,7 +15,13 @@ print(positiveIntsToBig([123,12,2,-23,2,-123,23,-12,-23,-534,2]))
 # Sum Total - Create a function that takes a list and returns the sum of all the values in the array.
 #     Example: sum_total([1,2,3,4]) should return 10
 #     Example: sum_total([6,3,-2]) should return 7
+def sumTotal(list):
+    sum = 0
+    for i in range(0,len(list)):
+        sum+=list[i]
+    return sum
 
+print(sumTotal([2,3,4,5]))
 
 # Average - Create a function that takes a list and returns the average of all the values.
 #     Example: average([1,2,3,4]) should return 2.5
