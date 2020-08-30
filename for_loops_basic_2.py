@@ -32,7 +32,7 @@ def avg(list):
         sum+=list[i]
     return sum/len(list)
 
-print(sumTotal([2,3,4,5]))
+print(avg([2,3,4,5]))
 
 # Length - Create a function that takes a list and returns the length of the list.
 #     Example: length([37,2,1,-9]) should return 4
