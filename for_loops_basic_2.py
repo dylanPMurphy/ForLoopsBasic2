@@ -26,6 +26,13 @@ print(sumTotal([2,3,4,5]))
 # Average - Create a function that takes a list and returns the average of all the values.
 #     Example: average([1,2,3,4]) should return 2.5
 
+def avg(list):
+    sum = 0
+    for i in range(0,len(list)):
+        sum+=list[i]
+    return sum/len(list)
+
+print(sumTotal([2,3,4,5]))
 
 # Length - Create a function that takes a list and returns the length of the list.
 #     Example: length([37,2,1,-9]) should return 4
