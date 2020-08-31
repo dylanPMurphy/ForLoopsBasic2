@@ -81,10 +81,10 @@ print(listAnalysis(global_list))
 
 def reverse_list(list):
     for i in range(0,len(list)):
-        if i >= len(list)-1:
+        if i >= len(list)-(i+1):
             break
         temp = list[i]
-        list[i] = list[len(list)-1]
-        list[len(list)-1]= temp
+        list[i] = list[len(list)-(i+1)]
+        list[len(list)-(i+1)]= temp
     return list
 print(reverse_list(global_list))
